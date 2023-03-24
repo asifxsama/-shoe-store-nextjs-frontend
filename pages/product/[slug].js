@@ -7,7 +7,7 @@ import { fetchDataFromApi } from "@/utils/api";
 import { getDiscountedPricePercentage } from "@/utils/helper";
 import ReactMarkdown from "react-markdown";
 import { useSelector, useDispatch } from "react-redux";
-// import { addToCart } from "@/store/cartSlice";
+import { addToCart } from "@/store/cartSlice";
 
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
